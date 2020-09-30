@@ -15925,6 +15925,26 @@
           "fields": null,
           "inputFields": [
             {
+              "name": "gatsbyRemarkPlugins",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "SitePluginPluginOptionsGatsbyRemarkPluginsFilterListInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "shortname",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
               "name": "name",
               "description": "",
               "type": {
@@ -15945,31 +15965,11 @@
               "defaultValue": null
             },
             {
-              "name": "gatsbyRemarkPlugins",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "SitePluginPluginOptionsGatsbyRemarkPluginsFilterListInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "pathCheck",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
                 "name": "BooleanQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "shortname",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -16822,6 +16822,34 @@
           "description": null,
           "fields": [
             {
+              "name": "gatsbyRemarkPlugins",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "SitePluginPluginOptionsGatsbyRemarkPlugins",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "shortname",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "name",
               "description": null,
               "args": [],
@@ -16846,40 +16874,12 @@
               "deprecationReason": null
             },
             {
-              "name": "gatsbyRemarkPlugins",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "SitePluginPluginOptionsGatsbyRemarkPlugins",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "pathCheck",
               "description": null,
               "args": [],
               "type": {
                 "kind": "SCALAR",
                 "name": "Boolean",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "shortname",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -18228,18 +18228,6 @@
               "deprecationReason": null
             },
             {
-              "name": "pluginCreator___pluginOptions___name",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "pluginCreator___pluginOptions___path",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "pluginCreator___pluginOptions___gatsbyRemarkPlugins",
               "description": null,
               "isDeprecated": false,
@@ -18252,13 +18240,25 @@
               "deprecationReason": null
             },
             {
-              "name": "pluginCreator___pluginOptions___pathCheck",
+              "name": "pluginCreator___pluginOptions___shortname",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "pluginCreator___pluginOptions___shortname",
+              "name": "pluginCreator___pluginOptions___name",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___path",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___pathCheck",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -23507,18 +23507,6 @@
               "deprecationReason": null
             },
             {
-              "name": "pluginOptions___name",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "pluginOptions___path",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "pluginOptions___gatsbyRemarkPlugins",
               "description": null,
               "isDeprecated": false,
@@ -23537,13 +23525,25 @@
               "deprecationReason": null
             },
             {
-              "name": "pluginOptions___pathCheck",
+              "name": "pluginOptions___shortname",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "pluginOptions___shortname",
+              "name": "pluginOptions___name",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___path",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___pathCheck",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
