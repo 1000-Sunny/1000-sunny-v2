@@ -46,14 +46,19 @@ const siteMetadata = {
         },
         {
             name: "GitHub",
-            url: "https://github.com/akzhy/gatsby-starter-elemental",
+            url: "https://github.com/1000-Sunny/1000-sunny-v2",
         },
     ],
     social: [
         {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "#",
+            url: "https://www.facebook.com/1000sunny",
+        },
+        {
+            name: "Instagram",
+            icon: "/images/Instagram.svg",
+            url: "www.instagram.com/1000sunny",
         },
         {
             name: "Twitter",
@@ -61,9 +66,9 @@ const siteMetadata = {
             url: "#",
         },
         {
-            name: "Instagram",
-            icon: "/images/Instagram.svg",
-            url: "#",
+            name: "LinkedIn",
+            icon: "/images/LinkedIn.svg",
+            url: "www.linkedin.com/1000sunny",
         },
         {
             name: "Youtube",
