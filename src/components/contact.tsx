@@ -39,14 +39,14 @@ const Form: React.FC<{ api: string }> = ({ api }) => {
                                 4: {
                                     type: "success",
                                     message:
-                                        "Your message has been sent.",
+                                        "Il tuo messaggio è stato inviato.",
                                 },
                             })
                         } else {
                             setFeedback({
                                 4: {
                                     message:
-                                        "There was an error sending the message. Please try again.",
+                                        "Si è verificato un errore nell'invio del messaggio. Per favore, riprova.",
                                 },
                             })
                         }
@@ -55,7 +55,7 @@ const Form: React.FC<{ api: string }> = ({ api }) => {
                         setFeedback({
                             4: {
                                 message:
-                                    "There was an error sending the message. Please try again.",
+                                    "Si è verificato un errore nell'invio del messaggio. Per favore, riprova.",
                             },
                         })
                         setTransactionState(false);
@@ -73,7 +73,7 @@ const Form: React.FC<{ api: string }> = ({ api }) => {
             }}
         >
             <TextInput
-                label="Name"
+                label="Nome"
                 name="name"
                 onChange={e =>
                     updateData({
@@ -106,7 +106,7 @@ const Form: React.FC<{ api: string }> = ({ api }) => {
                 }
             />
             <TextInput
-                label="Message"
+                label="Messaggio"
                 name="message"
                 type="textarea"
                 onChange={e =>
@@ -131,7 +131,7 @@ const Form: React.FC<{ api: string }> = ({ api }) => {
 
                 <Button
                     type="button,submit"
-                    title="Send"
+                    title="Invia"
                     disabled={transactionState}
                     iconRight={<IconRight spin={transactionState}/>}
                 />
