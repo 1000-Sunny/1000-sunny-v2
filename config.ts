@@ -1,6 +1,6 @@
 const siteMetadata = {
     title: `Thousand Sunny`,
-    siteUrl: `http://localhost`,
+    siteUrl: `https://www.1000sunny.social`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
@@ -53,22 +53,22 @@ const siteMetadata = {
         {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "https://www.facebook.com/1000sunny",
+            url: "https://www.facebook.com/1000sunnysrl",
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "www.instagram.com/1000sunny",
+            url: "https://www.instagram.com/1000sunnysrl",
         },
         {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "#",
+            url: "https://www.twitter.com/1000sunnysrl",
         },
         {
             name: "LinkedIn",
             icon: "/images/LinkedIn.svg",
-            url: "www.linkedin.com/1000sunny",
+            url: "https://www.linkedin.com/company/1000sunnysrl",
         },
         {
             name: "Youtube",
@@ -156,7 +156,7 @@ const contactFormSubmit = async (api, data) => {
 }
 
 const defaults = {
-    disqus: null,
+    disqus: true,
     twoColumnWall: true,
     darkmode: false,
     switchTheme: true,
