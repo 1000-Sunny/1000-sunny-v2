@@ -84,7 +84,7 @@ const siteMetadata = {
         phone: "+39-379-1353128",
         address: "via G. Mazzini 20 \nTrieste \n(Italia)",
     },
-    disqus: "1000_Sunny",
+    disqus: "www-1000sunnysrl",
 }
 
 const beforeContactFormSubmit = data => {
