@@ -1,5 +1,5 @@
 const siteMetadata = {
-    title: `Elemental`,
+    title: `Thousand Sunny`,
     siteUrl: `http://localhost`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
@@ -8,11 +8,11 @@ const siteMetadata = {
     ogImage: `/images/wall.png`,
     twoColumnWall: true,
     cookiePolicy: true,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
+    introTag: `DIGITAL AGENCY | CONSULENZA`,
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
     about:
         "Cras accumsan a lectus at tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus elementum dapibus dictum. Mauris auctor quam nec est tincidunt hendrerit. Donec pulvinar lobortis mauris. Cras vulputate ullamcorper ligula a rhoncus. Nunc venenatis elementum ligula in semper. Mauris malesuada purus nunc, et ultricies leo aliquam ac. Ut sit amet nunc id magna accumsan hendrerit in eget metus.",
-    author: `@_akzhy`,
+    author: `@ianseberg`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
@@ -23,7 +23,7 @@ const siteMetadata = {
             url: "/",
         },
         {
-            name: "ABOUT",
+            name: "CHI SIAMO",
             url: "/about",
         },
         {
@@ -35,7 +35,7 @@ const siteMetadata = {
             url: "/portfolio",
         },
         {
-            name: "CONTACT",
+            name: "CONTATTACI",
             url: "/contact",
         },
     ],
@@ -73,13 +73,13 @@ const siteMetadata = {
     ],
     contact: {
         // leave empty ('') or false to hide form
-        api_url: "https://getform.io/f/f227a36e-096a-4c6a-9963-9f1918a85bb3",
+        api_url: "https://getform.io/f/25377796-95c5-425b-9c5d-8b8a343aa144",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation",
+        mail: "info@1000sunny.social",
+        phone: "+39-379-1353128",
+        address: "via G. Mazzini 20 \nTrieste \n(Italia)",
     },
-    disqus: "elemental-netlify-com",
+    disqus: "1000_Sunny",
 }
 
 const beforeContactFormSubmit = data => {
@@ -151,7 +151,7 @@ const contactFormSubmit = async (api, data) => {
 }
 
 const defaults = {
-    disqus: null,
+    disqus: true,
     twoColumnWall: true,
     darkmode: false,
     switchTheme: true,
