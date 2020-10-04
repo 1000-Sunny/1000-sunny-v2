@@ -23,7 +23,7 @@ const siteMetadata = {
             url: "/",
         },
         {
-            name: "CHI SIAMO",
+            name: "1000 Sunny",
             url: "/about",
         },
         {

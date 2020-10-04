@@ -54,7 +54,7 @@ export const query = graphql`
             body
             frontmatter {
                 title
-                date(formatString: "DD MMMM YYYY")
+                date(formatString: "DD MM YYYY")
                 description
                 banner {
                     publicURL
