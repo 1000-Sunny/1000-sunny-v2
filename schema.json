@@ -3591,11 +3591,11 @@
               "defaultValue": null
             },
             {
-              "name": "description",
+              "name": "date",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
+                "name": "DateQueryOperatorInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -3621,7 +3621,7 @@
               "defaultValue": null
             },
             {
-              "name": "template",
+              "name": "description",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
@@ -3631,11 +3631,11 @@
               "defaultValue": null
             },
             {
-              "name": "date",
+              "name": "template",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "DateQueryOperatorInput",
+                "name": "StringQueryOperatorInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -8060,54 +8060,6 @@
               "deprecationReason": null
             },
             {
-              "name": "description",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "image",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "OBJECT",
-                "name": "File",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "banner",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "OBJECT",
-                "name": "File",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "template",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "date",
               "description": null,
               "args": [
@@ -8155,6 +8107,54 @@
               "type": {
                 "kind": "SCALAR",
                 "name": "Date",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "image",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "OBJECT",
+                "name": "File",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "banner",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "OBJECT",
+                "name": "File",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "description",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "template",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -9662,7 +9662,7 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___description",
+              "name": "childMdx___frontmatter___date",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -10100,13 +10100,13 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___template",
+              "name": "childMdx___frontmatter___description",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___date",
+              "name": "childMdx___frontmatter___template",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -15925,6 +15925,76 @@
           "fields": null,
           "inputFields": [
             {
+              "name": "id",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "includeInDevelopment",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "BooleanQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "defaultDataLayer",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "SitePluginPluginOptionsDefaultDataLayerFilterInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "gtmAuth",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "gtmPreview",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "dataLayerName",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "routeChangeEventName",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
               "name": "name",
               "description": "",
               "type": {
@@ -15970,6 +16040,58 @@
               "type": {
                 "kind": "INPUT_OBJECT",
                 "name": "BooleanQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            }
+          ],
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "name": "SitePluginPluginOptionsDefaultDataLayerFilterInput",
+          "description": null,
+          "fields": null,
+          "inputFields": [
+            {
+              "name": "type",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "value",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "SitePluginPluginOptionsDefaultDataLayerValueFilterInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            }
+          ],
+          "interfaces": null,
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "name": "SitePluginPluginOptionsDefaultDataLayerValueFilterInput",
+          "description": null,
+          "fields": null,
+          "inputFields": [
+            {
+              "name": "platform",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -16090,16 +16212,6 @@
             },
             {
               "name": "main",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "author",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
@@ -16822,6 +16934,90 @@
           "description": null,
           "fields": [
             {
+              "name": "id",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "includeInDevelopment",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "defaultDataLayer",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "OBJECT",
+                "name": "SitePluginPluginOptionsDefaultDataLayer",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "gtmAuth",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "gtmPreview",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "dataLayerName",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "routeChangeEventName",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "name",
               "description": null,
               "args": [],
@@ -16880,6 +17076,64 @@
               "type": {
                 "kind": "SCALAR",
                 "name": "Boolean",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            }
+          ],
+          "inputFields": null,
+          "interfaces": [],
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "OBJECT",
+          "name": "SitePluginPluginOptionsDefaultDataLayer",
+          "description": null,
+          "fields": [
+            {
+              "name": "type",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "value",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "OBJECT",
+                "name": "SitePluginPluginOptionsDefaultDataLayerValue",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            }
+          ],
+          "inputFields": null,
+          "interfaces": [],
+          "enumValues": null,
+          "possibleTypes": null
+        },
+        {
+          "kind": "OBJECT",
+          "name": "SitePluginPluginOptionsDefaultDataLayerValue",
+          "description": null,
+          "fields": [
+            {
+              "name": "platform",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -16992,18 +17246,6 @@
             },
             {
               "name": "main",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "author",
               "description": null,
               "args": [],
               "type": {
@@ -18228,6 +18470,48 @@
               "deprecationReason": null
             },
             {
+              "name": "pluginCreator___pluginOptions___id",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___includeInDevelopment",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___defaultDataLayer___type",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___gtmAuth",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___gtmPreview",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___dataLayerName",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___routeChangeEventName",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "pluginCreator___pluginOptions___name",
               "description": null,
               "isDeprecated": false,
@@ -18307,12 +18591,6 @@
             },
             {
               "name": "pluginCreator___packageJson___main",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "pluginCreator___packageJson___author",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -20066,7 +20344,7 @@
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___description",
+              "name": "frontmatter___date",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -20816,13 +21094,13 @@
               "deprecationReason": "Sorting on fields that need arguments to resolve is deprecated."
             },
             {
-              "name": "frontmatter___template",
+              "name": "frontmatter___description",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___date",
+              "name": "frontmatter___template",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -23507,6 +23785,54 @@
               "deprecationReason": null
             },
             {
+              "name": "pluginOptions___id",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___includeInDevelopment",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___defaultDataLayer___type",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___defaultDataLayer___value___platform",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___gtmAuth",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___gtmPreview",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___dataLayerName",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___routeChangeEventName",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "pluginOptions___name",
               "description": null,
               "isDeprecated": false,
@@ -23592,12 +23918,6 @@
             },
             {
               "name": "packageJson___main",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "packageJson___author",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null

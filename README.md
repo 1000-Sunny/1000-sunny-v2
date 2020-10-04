@@ -1,11 +1,6 @@
-# Gatsby Starter Elemental
+# 1000-Sunny
 
 ![](https://img.shields.io/badge/version-2.1.2-green.svg) ![](https://img.shields.io/badge/License-MIT-orange.svg)
-
-
-Elemental is a portfolio template suitable for artists, photographers, designers etc. With the starter you can create blog, portfolio and miscellaneous posts (such as privacy-policy).
-
-**[Live Demo](https://elemental.netlify.app)** 
 
 ## Getting Started.
 
