@@ -2,7 +2,7 @@ const siteMetadata = {
     title: `1000 Sunny`,
     siteUrl: `https://www.1000sunny.social`,
     capitalizeTitleOnHome: false,
-    logo: `/images/logo.png`,
+    logo: `/images/logo 1000 sunny.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.png`,
     ogImage: `/images/wall.png`,
