@@ -53,7 +53,7 @@ const siteMetadata = {
         {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "https://www.facebook.com/1000sunnysrl",
+            url: "facebook://user?username=1000sunnysrl",
         },
         {
             name: "Instagram",
@@ -73,7 +73,7 @@ const siteMetadata = {
         {
             name: "Youtube",
             icon: "/images/Youtube.svg",
-            url: "#",
+            url: "http://instagram.com/_u/1000sunnysrl",
         },
     ],
     contact: {
