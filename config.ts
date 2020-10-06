@@ -58,7 +58,7 @@ const siteMetadata = {
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "https://www.instagram.com/1000sunnysrl",
+            url: "instagram://user?username=1000sunnysrl",
         },
         {
             name: "Twitter",
