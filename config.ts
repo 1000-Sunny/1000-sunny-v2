@@ -13,7 +13,7 @@ const siteMetadata = {
     about:
         "Cras accumsan a lectus at tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus elementum dapibus dictum. Mauris auctor quam nec est tincidunt hendrerit. Donec pulvinar lobortis mauris. Cras vulputate ullamcorper ligula a rhoncus. Nunc venenatis elementum ligula in semper. Mauris malesuada purus nunc, et ultricies leo aliquam ac. Ut sit amet nunc id magna accumsan hendrerit in eget metus.",
     author: `@ianseberg`,
-    blogItemsPerPage: 6,
+    blogItemsPerPage: 12,
     portfolioItemsPerPage: 10,
     darkmode: true,
     switchTheme: true,
@@ -81,7 +81,7 @@ const siteMetadata = {
         api_url: "https://getform.io/f/25377796-95c5-425b-9c5d-8b8a343aa144",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
         mail: "info@1000sunny.social",
-        phone: "+39-379-1353128",
+        phone: "+39-351-9535935",
         address: "via G. Mazzini 20 \nTrieste \n(Italia)",
     },
     disqus: "www-1000sunnysrl",
