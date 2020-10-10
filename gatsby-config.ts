@@ -10,6 +10,7 @@ const plugins = [
     `gatsby-plugin-typescript`,
     `gatsby-plugin-codegen`,
     `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
     {
         resolve: "gatsby-plugin-google-tagmanager",
         options: {
