@@ -17,7 +17,7 @@ export default ({ location }: PageProps<{}, {}>) => {
                     </h2>
                 </div>
                 <div className="pb-20 text-center">
-                    <p>Oops! Eh di quan non vai da nessuna parte. <span role="img" aria-label="Sad face">😞</span></p>
+                    <p>Oops! Eh di qua non vai da nessuna parte. <span role="img" aria-label="Sad face">😞</span></p>
                     <p>
                         <button onClick={() => {
                             if(window.history) window.history.back();

@@ -61,11 +61,6 @@ const siteMetadata = {
             url: "instagram://user?username=1000sunnysrl",
         },
         {
-            name: "Twitter",
-            icon: "/images/Twitter.svg",
-            url: "https://www.twitter.com/1000sunnysrl",
-        },
-        {
             name: "LinkedIn",
             icon: "/images/LinkedIn.svg",
             url: "https://www.linkedin.com/company/1000sunnysrl",
