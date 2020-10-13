@@ -3,8 +3,9 @@ import { MDXProvider } from "@mdx-js/react"
 import { graphql, PageProps } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
-import { Calendar } from "react-feather"
+import { Calendar, ArrowDown } from "react-feather"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import { Button } from "../components/ui"
 
 import { Row, Col } from "../components/shortcodes/index"
 import { PortfolioQuery } from "./__generated__/PortfolioQuery"
@@ -42,8 +43,18 @@ export default function porfolio ({ location, data }: PageProps<PortfolioQuery, 
                     <MDXProvider components={{ Row, Col }}>
                         <MDXRenderer>{data.mdx.body}</MDXRenderer>
                     </MDXProvider>
+                    </div>
+            <p className="text-lg lg:text-xl text-color-2 pt-4 lg:pt-0">
+                {data.introTag}
+            </p>
+            <p className="text-base lg:text-lg mt-4">{data.description}</p>
+                    <Button
+                    to={"/"}
+                    title={"CASE STUDIES"}
+                    type={"button"}
+                    iconRight={<ArrowDown />}
+                    />
                 </div>
-            </div>
         </Layout>
     )
 }
