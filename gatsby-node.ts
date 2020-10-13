@@ -53,10 +53,18 @@ export const createPages: GatsbyNode['createPages'] = async ({ graphql, actions 
                     }
                 }
             }
+            team: allMdx(filter: { fields: { sourceName: { eq: "team" } } }) {
+                edges {
+                    node {
+                        id
+                    }
+                }
+            }
             limitPost: site {
                 siteMetadata {
                     blogItemsPerPage
                     portfolioItemsPerPage
+                    teamItemsPerPage
                 }
             }
         }
@@ -104,6 +112,25 @@ export const createPages: GatsbyNode['createPages'] = async ({ graphql, actions 
                     limit: portfolioItemsPerPage,
                     skip: i * portfolioItemsPerPage,
                     numPages: numPortfolioItems,
+                    currentPage: i + 1,
+                },
+            })
+        })
+
+
+        const teamItems = result.data.team.edges
+        const teamItemsPerPage =
+            result.data.limitPost.siteMetadata.teamItemsPerPage
+        const numTeamItems = Math.ceil(teamItems.length / teamItemsPerPage)
+
+        Array.from({ length: numTeamItems }).forEach((_, i) => {
+            createPage({
+                path: i === 0 ? `/team` : `/team/${i + 1}`,
+                component: path.resolve("./src/templates/team-list.tsx"),
+                context: {
+                    limit: teamItemsPerPage,
+                    skip: i * teamItemsPerPage,
+                    numPages: numTeamItems,
                     currentPage: i + 1,
                 },
             })

@@ -8,6 +8,7 @@ import Layout from "../components/layout"
 import { Button } from "../components/ui"
 
 import ItemPortfolio from "../components/item-portfolio"
+import ItemTeam from "../components/item-team"
 import ItemBlog from "../components/item-blog"
 import { Form, Description as ContactDescription } from "../components/contact"
 import { IndexPageQuery } from "./__generated__/IndexPageQuery"
@@ -20,6 +21,14 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
             data={item.node}
             key={`p-item-index-${item.node.id}`}
             even={(_ + 1) % 2 === 0}
+        />
+    ))
+
+    const teamList = data.team.edges.map((item, _) => (
+        <ItemTeam
+            data={item.node}
+            key={`p-item-index-${item.node.id}`}
+            even={(_ - 1) % 2 === 0}
         />
     ))
 
@@ -41,6 +50,9 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
             {siteData.about !== "" && <About data={siteData.about} />}
             <div className="px-4 lg:px-0" id="portfolio">
                 {portfolioList}
+            </div>
+            <div className="px-4 lg:px-2" id="team">
+                {teamList}
             </div>
             <Blog>{blogList}</Blog>
             <Contact data={siteData.contact} />
@@ -223,6 +235,30 @@ export const query = graphql`
         }
         portfolio: allMdx(
             filter: { fields: { sourceName: { eq: "portfolio" } } }
+            limit: 6
+        ) {
+            edges {
+                node {
+                    id
+                    frontmatter {
+                        title
+                        description
+                        image {
+                            childImageSharp {
+                                fluid(maxWidth: 1000) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
+                    }
+                    fields {
+                        slug
+                    }
+                }
+            }
+        }
+        team: allMdx(
+            filter: { fields: { sourceName: { eq: "team" } } }
             limit: 6
         ) {
             edges {

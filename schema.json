@@ -13478,6 +13478,16 @@
               "defaultValue": null
             },
             {
+              "name": "teamItemsPerPage",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "IntQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
               "name": "darkmode",
               "description": "",
               "type": {
@@ -14163,6 +14173,18 @@
               "deprecationReason": null
             },
             {
+              "name": "teamItemsPerPage",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "darkmode",
               "description": null,
               "args": [],
@@ -14702,6 +14724,12 @@
             },
             {
               "name": "siteMetadata___portfolioItemsPerPage",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "siteMetadata___teamItemsPerPage",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null

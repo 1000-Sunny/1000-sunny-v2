@@ -169,6 +169,36 @@ p {
     transform: translate(0, 0px);
 }
 
+.team-item .image {
+    clip-path: polygon(0 0, 0% 0, 0% 100%, 0% 100%);
+    transition: clip-path 0.50s;
+    transition-timing-function: ease-in-out;
+    z-index: 3;
+    transform: translateY(0);
+}
+
+.team-item.even .image {
+    clip-path: polygon(100% 0, 100% 0, 100% 99%, 100% 100%);
+}
+
+
+.team-item.begin-animation .image{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.team-item .to-up {
+    transform: translate(0, 50px);
+    transition: transform 0.25s;
+}
+
+.team-item .to-up:nth-child(2){
+    transition-delay: 0.2s;
+}
+
+.team-item.begin-animation .to-up {
+    transform: translate(0, 0px);
+}
+
 .footer-links li{
     @apply mx-3;
 }

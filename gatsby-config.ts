@@ -56,6 +56,13 @@ const plugins = [
     {
         resolve: `gatsby-source-filesystem`,
         options: {
+            name: `team`,
+            path: `${__dirname}/contents/team/`,
+        },
+    },
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
             name: `basepages`,
             path: `${__dirname}/contents/basepages`,
         },

@@ -15,6 +15,7 @@ const siteMetadata = {
     author: `@ianseberg`,
     blogItemsPerPage: 12,
     portfolioItemsPerPage: 10,
+    teamItemsPerPage: 10,
     darkmode: true,
     switchTheme: true,
     navLinks: [
@@ -32,7 +33,11 @@ const siteMetadata = {
         },
         {
             name: "CASE STUDIES",
-            url: "/portfolio",
+            url: "/portfolio/case-studies-marketing",
+        },
+        {
+            name: "IL TEAM",
+            url: "/team/team-1000-sunny",
         },
         {
             name: "CONTATTACI",
