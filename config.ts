@@ -81,7 +81,7 @@ const siteMetadata = {
         api_url: "https://getform.io/f/25377796-95c5-425b-9c5d-8b8a343aa144",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
         mail: "info@1000sunny.social",
-        phone: "+39-351-9535935",
+        phone: "+39-351-9535934",
         address: "via G. Mazzini 20 \nTrieste \n(Italia)",
     },
     disqus: "www-1000sunnysrl",

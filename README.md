@@ -2,24 +2,6 @@
 
 ![](https://img.shields.io/badge/version-2.1.2-green.svg) ![](https://img.shields.io/badge/License-MIT-orange.svg)
 
-## Getting Started.
-
-You will need node and [Gatsby](https://www.gatsbyjs.org/tutorial/part-zero/) installed.
-
-Start the project by 
-
-```
-gatsby new project-name https://github.com/akzhy/gatsby-starter-elemental
-cd project-name
-gatsby develop
-```
-
-And for the final build
-
-```
-gatsby build
-```
-
 ### Configuring
 
 Almost all features of this starter are editable. In order to personalize, open the `config.js` file and start editing.
@@ -229,13 +211,6 @@ You can also handle how data is sent to the server by editing the `contactFormSu
 }
 ```
 
-## Contributing
+index, add blog: <Blog>{blogList}</Blog>
 
-Any kind of contributions are welcome. Bump the version and create a PR.
-
-
-
-
-
-# 1000-sunny-v2
 # 1000-sunny
