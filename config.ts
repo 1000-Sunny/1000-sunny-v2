@@ -9,9 +9,9 @@ const siteMetadata = {
     twoColumnWall: true,
     cookiePolicy: true,
     introTag: `DIGITAL AGENCY | CONSULENZA`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+    description: `Un’agenzia marketing creativa e proiettata al futuro. Il tuo skipper per aiutarti nel digitale.`,
     about:
-        "Cras accumsan a lectus at tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus elementum dapibus dictum. Mauris auctor quam nec est tincidunt hendrerit. Donec pulvinar lobortis mauris. Cras vulputate ullamcorper ligula a rhoncus. Nunc venenatis elementum ligula in semper. Mauris malesuada purus nunc, et ultricies leo aliquam ac. Ut sit amet nunc id magna accumsan hendrerit in eget metus.",
+        "1000 Sunny S.r.l. è una web agency creativa che fa della trasparenza e umanità del proprio team il suo punto di forza. Crediamo nell'organizzazione, nella chiarezza comunicativa e nel rispetto dei ruoli e siamo ancora più convinti che i nostri clienti partner debbano stare al nostro fianco: non siamo semplici bracci operativi, il nostro obiettivo è guidare, consigliare ma soprattutto apprendere per restituire valore. Con un team composto da oltre 45 persone, ci poniamo come unico interlocutore per le attività digitali di marche e aziende.",
     author: `@ianseberg`,
     blogItemsPerPage: 12,
     portfolioItemsPerPage: 10,
@@ -79,10 +79,10 @@ const siteMetadata = {
     contact: {
         // leave empty ('') or false to hide form
         api_url: "https://getform.io/f/25377796-95c5-425b-9c5d-8b8a343aa144",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+        description: `Compila il modulo per inviarci una mail o usa i canali social per contattarci. Siamo sempre in ascolto.`,
         mail: "info@1000sunny.social",
         phone: "+39-351-9535934",
-        address: "via G. Mazzini 20 \nTrieste \n(Italia)",
+        address: "via G. Mazzini 20 \nTrieste",
     },
     disqus: "www-1000sunnysrl",
 }

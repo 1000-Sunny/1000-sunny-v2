@@ -161,7 +161,7 @@ The contact form will appear only if you have provided an api url. You can contr
 
 To customize these functions, edit the `config.js` file.
 
-The `beforeContactFormSubmit` function is used to validate the form data before it is sent to the server. It has one argument that contains the object 
+The `beforeContactFormSubmit` function is used to validate the form data before it is sent to the server. It has one argument that contains the object
 
 ```
 {
