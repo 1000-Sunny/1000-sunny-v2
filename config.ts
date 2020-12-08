@@ -70,11 +70,6 @@ const siteMetadata = {
             icon: "/images/LinkedIn.svg",
             url: "https://www.linkedin.com/company/1000sunnysrl",
         },
-        {
-            name: "Youtube",
-            icon: "/images/Youtube.svg",
-            url: "http://instagram.com/_u/1000sunnysrl",
-        },
     ],
     contact: {
         // leave empty ('') or false to hide form
