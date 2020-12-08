@@ -21,7 +21,7 @@ const siteMetadata = {
     about:"", // The short about text shown on front page
     introTag: `PHOTOGRAPHER | VIDEOGRAPHER`, // Intro tag shown below title
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-    author: `@_akzhy`, // Author
+    author: `@ianseberg`, // Author
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true, // Whether to enable the darkmode by default. Change to false if you want the light mode
