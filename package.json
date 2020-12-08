@@ -2,7 +2,7 @@
   "name": "1000-SUNNY",
   "private": true,
   "description": "AGENZIA DIGITAL E DI CONSULENZA",
-  "version": "1.59.8",
+  "version": "0.59.8",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
