@@ -10,7 +10,7 @@ Almost all features of this starter are editable. In order to personalize, open 
 // Do not remove any of the properties below.
 
 const siteMetadata = {
-    title: `Elemental`, // Title of your webpage
+    title: `1000 Sunny`, // Title of your webpage
     siteUrl: `http://localhost`, // You sites URL
     capitalizeTitleOnHome: true, // Whether to capitalize the letter on homepage
     logo: `/images/logo.png`, // Logo 

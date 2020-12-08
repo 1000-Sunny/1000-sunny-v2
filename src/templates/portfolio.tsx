@@ -44,7 +44,7 @@ export default function porfolio ({ location, data }: PageProps<PortfolioQuery, 
                         <MDXRenderer>{data.mdx.body}</MDXRenderer>
                     </MDXProvider>
                     </div>
-            <p className="text-lg lg:text-xl text-color-2 pt-4 lg:pt-0">
+            <p className="text-lg lg:text-xl text-color-2 pt-4 lg:pt-0">  //cancel
                 {data.introTag}
             </p>
             <p className="text-base lg:text-lg mt-4">{data.description}</p>
