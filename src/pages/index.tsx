@@ -51,7 +51,7 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
             <div className="px-4 lg:px-0" id="portfolio">
                 {portfolioList}
             </div>
-            <div className="px-4 lg:px-2" id="team">
+            <div className="px-4 lg:px-0" id="team">
                 {teamList}
             </div>
             <Contact data={siteData.contact} />
