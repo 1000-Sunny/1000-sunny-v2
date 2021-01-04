@@ -15983,16 +15983,6 @@
               "defaultValue": null
             },
             {
-              "name": "id",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "includeInDevelopment",
               "description": "",
               "type": {
@@ -16048,6 +16038,16 @@
               "type": {
                 "kind": "INPUT_OBJECT",
                 "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "sv",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "IntQueryOperatorInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -17028,18 +17028,6 @@
               "deprecationReason": null
             },
             {
-              "name": "id",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "includeInDevelopment",
               "description": null,
               "args": [],
@@ -17106,6 +17094,18 @@
               "type": {
                 "kind": "SCALAR",
                 "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "sv",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "Int",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -18582,12 +18582,6 @@
               "deprecationReason": null
             },
             {
-              "name": "pluginCreator___pluginOptions___id",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "pluginCreator___pluginOptions___includeInDevelopment",
               "description": null,
               "isDeprecated": false,
@@ -18619,6 +18613,12 @@
             },
             {
               "name": "pluginCreator___pluginOptions___routeChangeEventName",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___sv",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -23915,12 +23915,6 @@
               "deprecationReason": null
             },
             {
-              "name": "pluginOptions___id",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "pluginOptions___includeInDevelopment",
               "description": null,
               "isDeprecated": false,
@@ -23958,6 +23952,12 @@
             },
             {
               "name": "pluginOptions___routeChangeEventName",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___sv",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null

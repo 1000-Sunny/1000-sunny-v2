@@ -41,6 +41,14 @@ const plugins = [
         },
     },
     {
+        resolve: `gatsby-plugin-hotjar`,
+        options: {
+          includeInDevelopment: false, // optional parameter to include script in development
+          id: 2180107,
+          sv: 6,
+     },
+    },
+    {
         resolve: `gatsby-source-filesystem`,
         options: {
             name: `blog`,
