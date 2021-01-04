@@ -9,6 +9,7 @@ const plugins = [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-codegen`,
+    `gatsby-plugin-easter-egg`,
     `gatsby-plugin-sitemap`,
     'gatsby-plugin-robots-txt',
     {
