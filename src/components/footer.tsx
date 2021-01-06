@@ -46,6 +46,7 @@ export default function() {
                     Copyright &copy; {query.site.siteMetadata.title}{" "}
                     {new Date().getFullYear()}
                 </p>
+                Thousand Sunny S.r.l. | via G. Mazzini 20 - 34121 Trieste | P.IVA 01336390321 | PEC: 1000sunny@pec.it | COD.DEST.: P62QHVQ
             </div>
         </footer>
     )
