@@ -26,7 +26,7 @@ const plugins = [
           // should be an object or a function that is executed in the browser
           //
           // Defaults to null
-          defaultDataLayer: { platform: "gatsby" },
+          defaultDataLayer: { platform: "null" },
     
           // Specify optional GTM environment details.
           gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
