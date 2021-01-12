@@ -4,14 +4,6 @@ import autoprefixer from 'autoprefixer';
 import tailwindcss from 'tailwindcss';
 
 const plugins = [
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-typescript`,
-    `gatsby-plugin-codegen`,
-    `gatsby-plugin-easter-egg`,
-    `gatsby-plugin-sitemap`,
-    'gatsby-plugin-robots-txt',
     {
         resolve: "gatsby-plugin-google-tagmanager",
         options: {
@@ -26,7 +18,7 @@ const plugins = [
           // should be an object or a function that is executed in the browser
           //
           // Defaults to null
-          defaultDataLayer: { platform: "null" },
+          defaultDataLayer: { platform: "gatsby" },
     
           // Specify optional GTM environment details.
           gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
@@ -37,7 +29,7 @@ const plugins = [
           // on every Gatsby route change.
           //
           // Defaults to gatsby-route-change
-          routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
+          routeChangeEventName: "gatsby-route-change",
         },
     },
     {
@@ -56,7 +48,7 @@ const plugins = [
           // Delays sending pageview hits on route update (in milliseconds)
           pageTransitionDelay: 0,
           // Enables Google Optimize using your container Id
-          optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+          optimizeId: "OPT-TNX9L5N",
           // Enables Google Optimize Experiment ID
           experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
           // Set Variation ID. 0 for original 1,2,3....
@@ -130,6 +122,14 @@ const plugins = [
           ],
         },
       },
+      `gatsby-plugin-sharp`,
+      `gatsby-transformer-sharp`,
+      `gatsby-plugin-react-helmet`,
+      `gatsby-plugin-typescript`,
+      `gatsby-plugin-codegen`,
+      `gatsby-plugin-easter-egg`,
+      `gatsby-plugin-sitemap`,
+      'gatsby-plugin-robots-txt',
 ]
 
 if (siteMetadata.disqus) {
