@@ -40,7 +40,7 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
         <Layout
             front={true}
             seo={{
-                title: "Home",
+                title: "1000 Sunny",
                 description: siteData.description,
             }}
             navPlaceholder={false}
@@ -106,9 +106,9 @@ const Wall = ({ data }) => {
                 {data.introTag}
             </p>
             <p className="text-base lg:text-lg mt-4">{data.description}</p>
-            <ScrollIntoView selector="#portfolio">
+            <ScrollIntoView selector="#contact">
                 <Button
-                    title="CASE STUDIES"
+                    title="Per contattarci"
                     type="button"
                     iconRight={<ArrowRight />}
                 />
@@ -181,7 +181,7 @@ const Blog = ({ children }) => {
 const Contact = ({ data }) => {
     const hasContactForm = data.api_url
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto" id="contact">
             <div className="pt-20 pb-10 lg:pt-40 lg:pb-20 text-center">
                 <h2 className="text-color-1 font-black text-5xl lg:text-6xl">
                     Contattaci
