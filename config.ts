@@ -28,7 +28,7 @@ const siteMetadata = {
             url: "/blog",
         },
         {
-            name: "CASE STUDIES",
+            name: "SERVIZI",
             url: "/portfolio/case-studies-marketing",
         },
         {
