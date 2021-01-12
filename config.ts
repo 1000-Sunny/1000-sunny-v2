@@ -1,5 +1,5 @@
 const siteMetadata = {
-    title: `Agenzia di Digital Marketing Creativa`,
+    title: `Agenzia Digital Marketing Creativa`,
     siteUrl: `https://www.1000sunny.social`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo 1000 sunny.png`,
