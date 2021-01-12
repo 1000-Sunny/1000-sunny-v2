@@ -1,7 +1,7 @@
 import { createFilePath } from 'gatsby-source-filesystem';
 import { GatsbyNode } from 'gatsby';
 import path from 'path';
-require('ts-node').register({files: true});
+
 
 export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, getNode, actions }) => {
     const { createNodeField } = actions

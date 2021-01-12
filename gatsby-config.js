@@ -6,7 +6,7 @@
  * ts-node register helps compiling and importing TypeScript modules
  */
 require('source-map-support').install();
-require('ts-node').register({files: true});
+require('ts-node').register();
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
