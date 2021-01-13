@@ -16,6 +16,7 @@ export default function blog({ location, data }: PageProps<BlogQuery, {}>) {
         <Layout
             seo={{
                 title: data.mdx.frontmatter.title,
+                description: data.mdx.frontmatter.description,
                 image: data.mdx.frontmatter.banner.publicURL
             }}
             location={location}
