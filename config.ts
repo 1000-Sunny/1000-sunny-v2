@@ -29,7 +29,7 @@ const siteMetadata = {
         },
         {
             name: "SERVIZI",
-            url: "/portfolio/case-studies-marketing",
+            url: "/portfolio/servizi",
         },
         {
             name: "IL TEAM",
