@@ -1,5 +1,5 @@
 const siteMetadata = {
-    title: `Agenzia Digital Marketing Creativa`,
+    title: `Agenzia di Digital Marketing & Creativa`,
     siteUrl: `https://www.1000sunny.social`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo 1000 sunny.png`,
@@ -8,7 +8,7 @@ const siteMetadata = {
     ogImage: `/images/wall.png`,
     twoColumnWall: true,
     cookiePolicy: true,
-    introTag: `SOCIAL MEDIA AGENCY | CONSULENZA`,
+    introTag: `ONLINE MARKETING | CONSULENZA`,
     description: `Un’agenzia marketing creativa e proiettata al futuro. Il tuo skipper per aiutarti nel digitale.`,
     about:
         "1000 Sunny S.r.l. è una web agency creativa che fa della trasparenza e umanità del proprio team il suo punto di forza. Crediamo nell'organizzazione, nella chiarezza comunicativa e nel rispetto dei ruoli e siamo ancora più convinti che i nostri clienti partner debbano stare al nostro fianco: non siamo semplici braccia operative, il nostro obiettivo è guidare, consigliare ma soprattutto apprendere per restituire valore. Siamo un team ricco di soft skill e con alta formazione, ci poniamo come unico interlocutore per le attività digitali di marche e aziende.",
@@ -44,6 +44,10 @@ const siteMetadata = {
         {
             name: "PRIVACY POLICY",
             url: "/privacy-policy",
+        },
+        {         
+            name: "COOKIE POLICY",
+            url: "/cookie-policy",
         },
         {
             name: "GitHub",
