@@ -18,7 +18,7 @@ const Logo = ({ className = "logo" }) => {
     return (
         <img
             src={data.site.siteMetadata.logo}
-            alt={`${data.site.siteMetadata.title} - logo`}
+            alt={`${data.site.siteMetadata.company} - logo`}
             className={className}
         />
     )

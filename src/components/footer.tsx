@@ -10,7 +10,7 @@ export default function() {
         query FooterLinksQuery {
             site {
                 siteMetadata {
-                    title
+                    company
                     footerLinks {
                         name
                         url
@@ -28,7 +28,7 @@ export default function() {
         <footer className="footer bg-bgalt py-12">
             <div className="container mx-auto text-center">
                 <div className="flex justify-center my-3 mb-6">
-                    <Link to="/" title={query.site.siteMetadata.title}>
+                    <Link to="/" title={query.site.siteMetadata.company}>
                         <Logo className="w-24"/>
                     </Link>
                 </div>
@@ -43,10 +43,10 @@ export default function() {
                     </ul>
                 </div>
                 <p className="text-color-default text-lg">
-                    Copyright &copy; {query.site.siteMetadata.title}{" "}
+                    Copyright &copy; {query.site.siteMetadata.company}{" "}
                     {new Date().getFullYear()}
                 </p>
-                Thousand Sunny S.r.l. | via G. Mazzini 20 - 34121 Trieste | P.IVA 01336390321 | PEC: 1000sunny@pec.it | COD.DEST.: P62QHVQ
+                <br/>Thousand Sunny S.r.l.<br/>P.IVA 01336390321 | PEC: 1000sunny@pec.it | COD.DEST.: P62QHVQ
             </div>
         </footer>
     )

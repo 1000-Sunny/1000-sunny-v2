@@ -4,14 +4,15 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import { SeoQuery } from "./__generated__/SeoQuery"
 
-export type SEOProps = { description?: string, lang?: string, meta?: any, title?: string, image?: any };
-function SEO({ description, lang, meta, title, image }: SEOProps) {
+export type SEOProps = { description?: string, lang?: string, meta?: any, title?: string, image?: any, company?: string };
+function SEO({ description, lang, meta, title, image, company }: SEOProps) {
     const { site } = useStaticQuery<SeoQuery>(
         graphql`
             query SeoQuery {
                 site {
                     siteMetadata {
                         title
+                        company
                         description
                         author
                         ogImage

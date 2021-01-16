@@ -1,5 +1,6 @@
 const siteMetadata = {
     title: `Agenzia di Digital Marketing & Creativa`,
+    company: `1000 Sunny S.r.l.`,
     siteUrl: `https://www.1000sunny.social`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo 1000 sunny.png`,
@@ -37,7 +38,7 @@ const siteMetadata = {
         },
         {
             name: "CONTATTACI",
-            url: "/contact",
+            url: "/contatti",
         },
     ],
     footerLinks: [
@@ -58,17 +59,17 @@ const siteMetadata = {
         {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "facebook://user?username=1000sunnysrl",
+            url: "https://www.facebook.com/1000sunnysrl",
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "instagram://user?username=1000sunnysrl",
+            url: "https://www.instagram.com/1000sunnysrl",
         },
         {
             name: "LinkedIn",
             icon: "/images/LinkedIn.svg",
-            url: "https://www.linkedin.com/company/1000sunnysrl",
+            url: "https://www.linkedin.com/company/47592714",
         },
     ],
     contact: {

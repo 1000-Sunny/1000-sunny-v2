@@ -12,7 +12,7 @@ export default ({data, location}: PageProps<ContactQuery>) => {
     return (
         <Layout
             seo={{
-                title: "Contact",
+                title: "Contatti 1000 Sunny",
             }}
             location={location}
         >
