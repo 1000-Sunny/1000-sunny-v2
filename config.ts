@@ -78,7 +78,7 @@ const siteMetadata = {
         description: `Compila il modulo per inviarci una mail o usa i canali social per contattarci. Siamo sempre in ascolto.`,
         mail: "info@1000sunny.social",
         phone: "+39-351-9535934",
-        address: "via G. Mazzini 20 \nTrieste",
+        address: "via Sant'Anastasio 18 \nTrieste",
     },
     disqus: "www-1000sunnysrl",
 }
