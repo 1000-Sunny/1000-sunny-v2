@@ -76,7 +76,7 @@ const siteMetadata = {
         // leave empty ('') or false to hide form
         api_url: "https://getform.io/f/25377796-95c5-425b-9c5d-8b8a343aa144",
         description: `Compila il modulo per inviarci una mail o usa i canali social per contattarci. Siamo sempre in ascolto.`,
-        mail: "info@1000sunny.social",
+        mail: "sunny.trieste@gmail.com",
         phone: "+39-351-9535934",
         address: "via Sant'Anastasio 18 \nTrieste",
     },
