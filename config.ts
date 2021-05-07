@@ -77,7 +77,7 @@ const siteMetadata = {
         api_url: "https://getform.io/f/25377796-95c5-425b-9c5d-8b8a343aa144",
         description: `Compila il modulo per inviarci una mail o usa i canali social per contattarci. Siamo sempre in ascolto.`,
         mail: "sunny.trieste@gmail.com",
-        phone: "+39-351-9535934",
+        phone: "+39-329-1693720",
         address: "via Sant'Anastasio 18 \nTrieste",
     },
     disqus: "www-1000sunnysrl",
