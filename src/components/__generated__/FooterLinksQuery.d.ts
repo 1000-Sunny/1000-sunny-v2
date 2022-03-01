@@ -13,7 +13,7 @@ export interface FooterLinksQuery_site_siteMetadata_footerLinks {
 }
 
 export interface FooterLinksQuery_site_siteMetadata {
-  title: string | null;
+  company: string | null;
   footerLinks: (FooterLinksQuery_site_siteMetadata_footerLinks | null)[] | null;
 }
 

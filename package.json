@@ -17,6 +17,7 @@
     "@analytics/google-tag-manager": "^0.4.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "caniuse-lite": "^1.0.30001312",
     "gatsby": "^2.30.2",
     "gatsby-image": "^2.9.0",
     "gatsby-plugin-apollo": "^3.0.2",

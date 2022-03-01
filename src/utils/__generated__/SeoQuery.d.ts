@@ -9,6 +9,7 @@
 
 export interface SeoQuery_site_siteMetadata {
   title: string | null;
+  company: string | null;
   description: string | null;
   author: string | null;
   ogImage: string | null;
