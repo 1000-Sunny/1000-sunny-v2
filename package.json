@@ -17,6 +17,7 @@
     "@analytics/google-tag-manager": "^0.4.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "apollo": "^2.33.9",
     "caniuse-lite": "^1.0.30001312",
     "gatsby": "^2.30.2",
     "gatsby-image": "^2.9.0",
@@ -47,6 +48,7 @@
     "react-scroll-into-view": "^1.8.2",
     "tailwind-theme-switcher": "^1.0.2",
     "tailwindcss": "^1.4.6",
+    "type-fest": "^2.12.0",
     "vegemite": "^1.0.0"
   },
   "devDependencies": {
